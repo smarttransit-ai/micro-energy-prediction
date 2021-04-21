@@ -4,6 +4,7 @@
 For each vehicle class (model year), download data of all seasons in 2020, each season contains 2-week data.
 
 **Features for Training
+
 For diesel and hybrid vehicles:
 	1.	Vehicle trajectory (Speed, acceleration)
 	4.	Weather features (Humidity, temperature)
