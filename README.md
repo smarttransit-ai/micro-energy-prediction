@@ -6,10 +6,13 @@ For each vehicle class (model year), download data of all seasons in 2020, each 
 **Features for Training
 
 For diesel and hybrid vehicles:
+
 	1.	Vehicle trajectory (Speed, acceleration)
 	4.	Weather features (Humidity, temperature)
 	5.	Road gade
+
 For electric vehicles:
+
  	1.	Vehicle trajectory (Speed, acceleration, speed^2, speed^3, speed_acceleration)
 	4.	Weather features (Humidity, temperature)
 	5.	Road gade
