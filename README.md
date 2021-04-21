@@ -1,7 +1,11 @@
 # micro-energy-prediction
 
-## Training Data:
-For each vehicle class (model year), download data of all seasons in 2020, each season contains 2-weeks data.
+## Training and Cross-validation Data:
+2-weeks of data in each of the following season in year 2019 and 2020. 
+        Spring  (March-May)
+        Summer  (June-August)
+        Fall    (September-November)
+        Winter  (December-Febuary) 
 
 **Features for Training
 
