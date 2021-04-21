@@ -10,17 +10,10 @@ CARTA has been collecting real-time vehicle driving and energy consumption data 
 
 **Features for Training (Input Variables)
 
-For diesel and hybrid vehicles:
-
-	1.	Vehicle trajectory (Speed, acceleration)
+	1.	Vehicle instantaneous speed trajectory (Speed, acceleration)
 	4.	Weather features (Humidity, temperature)
 	5.	Road gade
 
-For electric vehicles:
-
- 	1.	Vehicle trajectory (Speed, acceleration, speed^2, speed^3, speed_acceleration)
-	4.	Weather features (Humidity, temperature)
-	5.	Road gade
 
 **Target Feature (Output Variable): 
 
