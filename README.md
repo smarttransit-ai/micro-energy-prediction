@@ -1,4 +1,5 @@
 # micro-energy-prediction
+CARTA has been collecting real-time vehicle driving and energy consumption data at 1Hz frequency for Gillig Diesel (MY2014) bus. The project team develops a microscopic energy prediction model to estimate energy consumption of Gillig Diesel (MY2014)at 1Hz frequency. Artificial Neural Network (ANN) is used as the estimation model structure. The input and output variables, specific model structure, and model convergence are discussed below. 
 
 ## Training and Cross-validation Data:
 2-weeks of data in each of the following season in year 2019 and 2020: 
@@ -7,7 +8,7 @@
         Fall    (September-November)
         Winter  (December-Febuary) 
 
-**Features for Training
+**Features for Training (Input)
 
 For diesel and hybrid vehicles:
 
