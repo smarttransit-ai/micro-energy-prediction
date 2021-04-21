@@ -1,7 +1,7 @@
 # micro-energy-prediction
 
 ## Training Data:
-For each vehicle class (model year), download data of all seasons in 2020, each season contains 2-week data.
+For each vehicle class (model year), download data of all seasons in 2020, each season contains 2-weeks data.
 
 **Features for Training
 
