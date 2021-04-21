@@ -8,7 +8,7 @@ CARTA has been collecting real-time vehicle driving and energy consumption data 
         Fall    (September-November)
         Winter  (December-Febuary) 
 
-**Features for Training (Input)
+**Features for Training (Input Variables)
 
 For diesel and hybrid vehicles:
 
@@ -22,7 +22,7 @@ For electric vehicles:
 	4.	Weather features (Humidity, temperature)
 	5.	Road gade
 
-**Target Feature: 
+**Target Feature (Output Variable): 
 
 Energy Consumption Rate (gal/h for diesel and hybrid, and kW for electric)
 
