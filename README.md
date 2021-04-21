@@ -25,7 +25,7 @@ Energy Consumption Rate (gal/h for diesel and hybrid, and kW for electric)
 
 Based on our experiments, we found that different network structures work best for different vehicle classes.
 
-For *Diesel Bus in Model Year 2014*, the best model has 
+For **Diesel Bus in Model Year 2014**, the best model has 
 
 	•	One input layer 	
 		- Has one neuron for each predictor variable 
