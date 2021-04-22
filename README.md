@@ -10,10 +10,10 @@ CARTA has been collecting real-time vehicle driving and energy consumption data 
 
 **Features for Training (Input Variables)
 
-	1.	Vehicle instantaneous speed (meter per second)
+	1.	Vehicle instantaneous speed (kilometer per second)
 	2.	Vehicle instantaneous acceleration (meter per second^2)
-	3.	Relative humidity (%)
-	4.	Temperature (°)
+	3.	Relative humidity (0-1)
+	4.	Temperature (F)
 	5.	Road gade (%)
 
 **Target Feature (Output Variable): 
