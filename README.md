@@ -20,7 +20,9 @@ CARTA has been collecting real-time vehicle driving and energy consumption data 
 
 Energy Consumption Rate (gallone of diesel / 100 km)
 
-## Prediction model (ANN):
+## Prediction model selection(ANN):
+10-folde cross-validation is implemented to compare and select ANN structure. 
+
 
 Based on our experiments, we found that different network structures work best for different vehicle classes.
 
