@@ -20,6 +20,11 @@ CARTA has been collecting real-time vehicle driving and energy consumption data 
 
 Energy Consumption Rate (gallone of diesel / 100 km)
 
+The sample of the training data is shown below.
+
+<img src="https://github.com/smarttransit-ai/micro-energy-prediction/blob/main/data_sample.png" alt="alt text" width="300" height="20">
+
+
 ## Prediction model selection(ANN):
 10-folde cross-validation is implemented to compare and select ANN structure. 
 
