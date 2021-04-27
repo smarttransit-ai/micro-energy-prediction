@@ -22,7 +22,7 @@ Energy Consumption Rate (gallone of diesel / 100 km)
 
 The sample of the training data is shown below.
 
-<img src="https://github.com/smarttransit-ai/micro-energy-prediction/blob/main/data_sample.png" alt="alt text" width="300" height="20">
+<img src="https://github.com/smarttransit-ai/micro-energy-prediction/blob/main/data_sample.png" alt="alt text" width="400" height="100">
 
 
 ## Prediction model selection(ANN):
