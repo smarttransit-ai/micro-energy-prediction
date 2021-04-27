@@ -26,7 +26,7 @@ The sample of the training data is shown below.
 
 
 ## Prediction model selection(ANN):
-10-folde cross-validation is implemented to compare and select ANN structure. 
+5-folde cross-validation is implemented to compare and select ANN structure. 
 
 
 Based on our experiments, we found that different network structures work best for different vehicle classes.
