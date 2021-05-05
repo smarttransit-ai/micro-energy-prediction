@@ -36,9 +36,9 @@ For **Diesel Bus in Model Year 2014**, the best model has 
 	•	One input layer 	
 		- Has one neuron for each predictor variable 
 	•	Two hidden layers  	
-		- Have 6 neurons and 6 neurons, respectively 	
-		- The first layer has ‘sigmoid’ activation function 
-		- The second layer has ‘rectified linear’ activation function 
+		- Have 11 neurons and 11 neurons, respectively 	
+		- The first layer has ‘tanh’ activation function 
+		- The second layer has ‘relu’ activation function 
 	•	One output layer.  	
 		- Linear activation function 
 
