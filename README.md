@@ -1,5 +1,5 @@
 # micro-energy-prediction
-CARTA has been collecting real-time vehicle driving and energy consumption data at 1Hz frequency for Gillig Diesel (MY2014) bus. The project team develops a microscopic energy prediction model to estimate energy consumption of Gillig Diesel (MY2014)at 1Hz frequency. Artificial Neural Network (ANN) is used as the estimation model structure. The input and output variables, specific model structure, and model convergence are discussed below. 
+CARTA has been collecting real-time vehicle driving and energy consumption data at 1Hz frequency for Gillig Diesel (MY2014, MY2009, MY2002, and MY1998) and Hybrid (MY2014 and MY2009) buses. The project team develops a microscopic energy prediction model to estimate energy consumption of Gillig Diesel and Hybrid at 1Hz frequency. Artificial Neural Network (ANN) is used as the estimation model structure. The input and output variables, specific model structure, and model convergence are discussed below. 
 
 ## Training and Cross-validation Data:
 2-weeks of data in each of the following season in year 2019 and 2020: 
@@ -10,7 +10,7 @@ CARTA has been collecting real-time vehicle driving and energy consumption data 
 
 **Features for Training (Input Variables)
 
-	1.	Vehicle instantaneous speed (kilometer per second)
+	1.	Vehicle instantaneous speed (kilometer per hour)
 	2.	Vehicle instantaneous acceleration (meter per second^2)
 	3.	Relative humidity (0-1)
 	4.	Temperature (F)
@@ -18,7 +18,7 @@ CARTA has been collecting real-time vehicle driving and energy consumption data 
 
 **Target Feature (Output Variable): 
 
-Energy Consumption Rate (gallone of diesel / 100 km)
+Energy Consumption Rate (gallon/hour)
 
 The sample of the training data is shown below.
 
@@ -26,8 +26,7 @@ The sample of the training data is shown below.
 
 
 ## Prediction model selection(ANN):
-5-folde cross-validation is implemented to compare and select ANN structure. 
-
+5-folds cross-validation is implemented to compare and select ANN structure. 
 
 Based on our experiments, we found that different network structures work best for different vehicle classes.
 
@@ -41,6 +40,73 @@ For **Diesel Bus in Model Year 2014**, the best model has 
 		- The second layer has ‘relu’ activation function 
 	•	One output layer.  	
 		- Linear activation function 
+		
+For **Diesel Bus in Model Year 2009**, the best model has 
 
-The model is optimized using 'adam' optimizer with a default learning rate 0.001
+	•	One input layer 	
+		- Has one neuron for each predictor variable 
+	•	Two hidden layers  	
+		- Have 10 neurons and 10 neurons, respectively 	
+		- The first layer has ‘tanh’ activation function 
+		- The second layer has ‘relu’ activation function 
+	•	One output layer.  	
+		- Linear activation function 
+		
+For **Diesel Bus in Model Year 2006**, the best model has 
+
+	•	One input layer 	
+		- Has one neuron for each predictor variable 
+	•	Two hidden layers  	
+		- Have 10 neurons and 10 neurons, respectively 	
+		- The first layer has ‘relu’ activation function 
+		- The second layer has ‘relu’ activation function 
+	•	One output layer.  	
+		- Linear activation function 
+		
+For **Diesel Bus in Model Year 2002**, the best model has 
+
+	•	One input layer 	
+		- Has one neuron for each predictor variable 
+	•	Two hidden layers  	
+		- Have 11 neurons and 11 neurons, respectively 	
+		- The first layer has ‘tanh’ activation function 
+		- The second layer has ‘relu’ activation function 
+	•	One output layer.  	
+		- Linear activation function 
+		
+For **Diesel Bus in Model Year 1998**, the best model has 
+
+	•	One input layer 	
+		- Has one neuron for each predictor variable 
+	•	Two hidden layers  	
+		- Have 11 neurons and 11 neurons, respectively 	
+		- The first layer has ‘tanh’ activation function 
+		- The second layer has ‘relu’ activation function 
+	•	One output layer.  	
+		- Linear activation function 
+
+For **Hybrid Bus in Model Year 2014**, the best model has 
+
+	•	One input layer 	
+		- Has one neuron for each predictor variable 
+	•	Two hidden layers  	
+		- Have 11 neurons and 11 neurons, respectively 	
+		- The first layer has ‘tanh’ activation function 
+		- The second layer has ‘relu’ activation function 
+	•	One output layer.  	
+		- Linear activation function 
+		
+For **Hybrid Bus in Model Year 2009**, the best model has 
+
+	•	One input layer 	
+		- Has one neuron for each predictor variable 
+	•	Two hidden layers  	
+		- Have 10 neurons and 10 neurons, respectively 	
+		- The first layer has ‘tanh’ activation function 
+		- The second layer has ‘relu’ activation function 
+	•	One output layer.  	
+		- Linear activation function 
+		
+
+All the model are optimized using 'adam' optimizer with a default learning rate 0.001
 
