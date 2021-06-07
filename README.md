@@ -1,5 +1,5 @@
 # micro-energy-prediction
-CARTA has been collecting real-time vehicle driving and energy consumption data at 1Hz frequency for Gillig Diesel (MY2014, MY2009, MY2002, and MY1998) and Hybrid (MY2014 and MY2009) buses. The project team develops a microscopic energy prediction model to estimate energy consumption of Gillig Diesel and Hybrid at 1Hz frequency. Artificial Neural Network (ANN) is used as the estimation model structure. The input and output variables, specific model structure, and model convergence are discussed below. 
+CARTA has been collecting real-time vehicle driving and energy consumption data at 1Hz frequency for Gillig Diesel (MY2014, MY2009, MY2002, and MY1998) and Hybrid (MY2014 and MY2009) buses. The project team develops a microscopic energy prediction model to estimate energy consumption of Gillig Diesel and Hybrid at 1Hz frequency. Artificial Neural Network (ANN) is used as the estimation model structure. The input and output variables, specific model structure, and model convergence are discussed below. This work was presented in this paper https://doi.org/10.1016/j.trd.2020.102637.
 
 ## Raw Data
 The raw data is 1Hz driving and energy consumption measurement recorded by on-board sensors on transit buses in year 2019 and 2020. The buses are in the transit operating fleet of Chattanooga Area Regional Transportation Authority (CARTA). The collected data include real-time location/elevation, vehicle activities (instantaneous speed, acceleration), energy related parameters (i.e. fuel rate). The data is retrieved at 1Hz frequency. The transit buses are running at pre-defined bus routes in Chattanooga metropolitan region. The routes represent typical mountainous terrain patterns in the region, which is surrounded by Tennessee River and ridge-and-valley Appalachians.
@@ -21,7 +21,7 @@ The raw data is 1Hz driving and energy consumption measurement recorded by on-bo
 
 **Target Feature (Output Variable): 
 
-Energy Consumption Rate (gallon/hour)
+Energy Consumption: gallon/hour for diesel and hybrid classes and kWh for electric class.
 
 The sample of the training data is shown below.
 
