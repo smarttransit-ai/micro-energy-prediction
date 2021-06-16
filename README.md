@@ -17,7 +17,7 @@ The raw data is 1Hz driving and energy consumption measurement recorded by on-bo
 	2.	Vehicle instantaneous acceleration (meter per second^2)
 	3.	Relative humidity (0-1)
 	4.	Temperature (F)
-	5.	Road gade (%)
+	5.	Road grade [difference of elevations devided by difference of driving distances between last second and this second]
 
 **Target Feature (Output Variable): 
 
@@ -123,4 +123,6 @@ For **Electric Bus in Model Year 2016**, the best model has 
 		
 
 All the model are optimized using 'adam' optimizer with a default learning rate 0.001
+
+* [DrivingPatterns](https://github.com/smarttransit-ai/micro-energy-prediction/tree/main/Diesel%20MY%202014/DrivingPatterns) is the folder containing samples of standard driving patterns at peak hour and off-peak hour in each season.
 
