@@ -5,4 +5,4 @@ The details of the files are this.
 * [microDieselMY2002.ipynb](microDieselMY2002.ipynb) is the model prepration and training notebook
 * [diesel_MY2002.model](diesel_MY2002.model) is the saved model file
 * [DieselMY2002_demonstration.ipynb](DieselMY2002_demonstration.ipynb) is the demonstration file that shows how to use the model for this vehicle class with a given driving profile.
-* [DrivingPatterns](https://github.com/smarttransit-ai/micro-energy-prediction/tree/main/Diesel%20MY%202002/DrivingPatterns) is the folder containing samples of different driving patterns at peak hour and off-peak hour in each season.
+
