@@ -28,7 +28,7 @@ The sample of the training data is shown below.
 <img src="https://github.com/smarttransit-ai/micro-energy-prediction/blob/main/data_sample.png" alt="alt text" width="400" height="150">
 
 
-[DrivingPatterns](https://github.com/smarttransit-ai/micro-energy-prediction/tree/main/Diesel%20MY%202014/DrivingPatterns) is the folder containing samples of standard driving profiles at peak hour and off-peak hour in each season.
+[DrivingProfile](https://github.com/smarttransit-ai/micro-energy-prediction/tree/main/DrivingProfile) is the folder containing samples of standard driving profiles at peak hour and off-peak hour in each season.
 
 
 ## Prediction model selection(ANN):
