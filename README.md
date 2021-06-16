@@ -28,6 +28,9 @@ The sample of the training data is shown below.
 <img src="https://github.com/smarttransit-ai/micro-energy-prediction/blob/main/data_sample.png" alt="alt text" width="400" height="150">
 
 
+[DrivingPatterns](https://github.com/smarttransit-ai/micro-energy-prediction/tree/main/Diesel%20MY%202014/DrivingPatterns) is the folder containing samples of standard driving profiles at peak hour and off-peak hour in each season.
+
+
 ## Prediction model selection(ANN):
 5-folds cross-validation is implemented to compare and select ANN structure. 
 
@@ -124,5 +127,5 @@ For **Electric Bus in Model Year 2016**, the best model has 
 
 All the model are optimized using 'adam' optimizer with a default learning rate 0.001
 
-* [DrivingPatterns](https://github.com/smarttransit-ai/micro-energy-prediction/tree/main/Diesel%20MY%202014/DrivingPatterns) is the folder containing samples of standard driving profiles at peak hour and off-peak hour in each season.
+
 
