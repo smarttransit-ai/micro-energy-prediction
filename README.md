@@ -124,5 +124,5 @@ For **Electric Bus in Model Year 2016**, the best model has 
 
 All the model are optimized using 'adam' optimizer with a default learning rate 0.001
 
-* [DrivingPatterns](https://github.com/smarttransit-ai/micro-energy-prediction/tree/main/Diesel%20MY%202014/DrivingPatterns) is the folder containing samples of standard driving patterns at peak hour and off-peak hour in each season.
+* [DrivingPatterns](https://github.com/smarttransit-ai/micro-energy-prediction/tree/main/Diesel%20MY%202014/DrivingPatterns) is the folder containing samples of standard driving profiles at peak hour and off-peak hour in each season.
 
