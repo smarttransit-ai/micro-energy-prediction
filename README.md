@@ -131,3 +131,6 @@ All the model are optimized using 'adam' optimizer with a default learning rate 
 
 See the demonstration notebook in each model-year folder.
 
+## Acknowledgement
+
+This material is based upon work supported by the Department of Energy, Office of Energy Efficiency and Renewable Energy (EERE), under Award Number DE-EE0008467 and National Science Foundation under grant 1952011. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) of these papers and do not necessarily reflect the views of the National Science Foundation or the Department of Energy.
