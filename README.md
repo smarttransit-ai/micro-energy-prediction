@@ -127,5 +127,7 @@ For **Electric Bus in Model Year 2016**, the best model has 
 
 All the model are optimized using 'adam' optimizer with a default learning rate 0.001
 
+**Demonstration**
 
+See the demonstration notebook in each model-year folder.
 
