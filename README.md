@@ -1,4 +1,4 @@
-# micro-energy-prediction
+# Micro-energy-prediction
 The HDEMMA project has been collecting real-time vehicle driving and energy consumption data at 1Hz frequency for Gillig Diesel (MY2014, MY2009, MY2002, and MY1998) and Hybrid (MY2014 and MY2009) buses. The project team developed a microscopic energy prediction model to estimate energy consumption of Gillig Diesel and Hybrid at 1Hz frequency. Artificial Neural Network (ANN) is used as the estimation model structure. The input and output variables, specific model structure, and model convergence are discussed below. This work was presented in this paper https://doi.org/10.1016/j.trd.2020.102637.
 
 ## Raw Data
