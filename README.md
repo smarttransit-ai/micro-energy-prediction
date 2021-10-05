@@ -127,9 +127,9 @@ For **Electric Bus in Model Year 2016**, the best model has 
 
 All the model are optimized using 'adam' optimizer with a default learning rate 0.001
 
-## Demonstration
+**Demonstration**
 
-See the [demonstration notebook]() in each model-year folder.
+See the [demonstration notebook](https://github.com/smarttransit-ai/micro-energy-prediction/blob/main/Diesel%20MY%201998/DieselMY1998_demonstration.ipynb) in each model-year folder.
 
 ## Acknowledgement
 
