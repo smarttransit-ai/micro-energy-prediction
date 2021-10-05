@@ -1,8 +1,8 @@
 # Micro-energy-prediction
-The HDEMMA project has been collecting real-time vehicle driving and energy consumption data at 1Hz frequency for Gillig Diesel (MY2014, MY2009, MY2002, and MY1998) and Hybrid (MY2014 and MY2009) buses. The project team developed a microscopic energy prediction model to estimate energy consumption of Gillig Diesel and Hybrid at 1Hz frequency. Artificial Neural Network (ANN) is used as the estimation model structure. The input and output variables, specific model structure, and model convergence are discussed below. This work was presented in this paper https://doi.org/10.1016/j.trd.2020.102637.
+The HDEMMA project has been collecting real-time vehicle driving and energy consumption data at 1Hz frequency for Gillig Diesel (MY2014, MY2009, MY2002, and MY1998), Hybrid (MY2014 and MY2009) and Electric (MY2016) buses. The project team developed a microscopic energy prediction model to estimate energy consumption of Gillig Diesel, Hybrid and BYD Electric buses at 1Hz frequency. Artificial Neural Network (ANN) is used as the estimation model structure. The input and output variables, specific model structure, and model convergence are discussed below. Part of this work was presented in the paper entitled "Hybrid electric buses fuel consumption prediction based on real-world driving data" https://doi.org/10.1016/j.trd.2020.102637. The contributors of this work are Ruixiao Sun and Yuche Chen, working at Department of Civil and Environmental Engineering, University of South Carolina.
 
 ## Raw Data
-The raw data is 1Hz driving and energy consumption measurement recorded by on-board sensors on transit buses in year 2019 and 2020. The buses are in the transit operating fleet of Chattanooga Area Regional Transportation Authority (CARTA). The collected data include real-time location/elevation, vehicle activities (instantaneous speed, acceleration), energy related parameters (i.e. fuel rate). The data is retrieved at 1Hz frequency. The transit buses are running at pre-defined bus routes in Chattanooga metropolitan region. The routes represent typical mountainous terrain patterns in the region, which is surrounded by Tennessee River and ridge-and-valley Appalachians.
+The raw data is 1Hz driving and energy consumption measurement recorded by on-board sensors on transit buses in year 2019 and 2020. The buses are in the transit operating fleet of Chattanooga Area Regional Transportation Authority (CARTA). The collected data include real-time location/elevation, vehicle activities (instantaneous speed, acceleration), energy related parameters (i.e. fuel rate/power). The data is retrieved at 1Hz frequency. The transit buses are running at pre-defined bus routes in Chattanooga metropolitan region. The routes represent typical mountainous terrain patterns in the region, which is surrounded by Tennessee River and ridge-and-valley Appalachians.
 
 ## Training and Cross-validation Data:
 2-weeks of data in each of the following season in year 2019 and 2020: 
@@ -127,9 +127,9 @@ For **Electric Bus in Model Year 2016**, the best model has 
 
 All the model are optimized using 'adam' optimizer with a default learning rate 0.001
 
-**Demonstration**
+## Demonstration
 
-See the demonstration notebook in each model-year folder.
+See the [demonstration notebook]() in each model-year folder.
 
 ## Acknowledgement
 
