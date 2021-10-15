@@ -11,7 +11,7 @@ The raw data is 1Hz driving and energy consumption measurement recorded by on-bo
         Fall    (September-November)
         Winter  (December-Febuary) 
 
-**Features for Training (Input Variables)
+**Features for Training (Input Variables)**
 
 	1.	Vehicle instantaneous speed (kilometer per hour)
 	2.	Vehicle instantaneous acceleration (meter per second^2)
@@ -19,7 +19,7 @@ The raw data is 1Hz driving and energy consumption measurement recorded by on-bo
 	4.	Temperature (F)
 	5.	Road grade [difference of elevations devided by difference of driving distances between last second and this second]
 
-**Target Feature (Output Variable): 
+**Target Feature (Output Variable)**
 
 Energy Consumption: gallon/hour for diesel and hybrid classes and kWh for electric class.
 
